@@ -15,11 +15,11 @@ public class CounterTest {
     }
 
     @Test
-    public void whenSumEvenNumbersFromThreeToNineThenEighteen() {
-        int start = 3;
-        int finish = 9;
+    public void whenSumEvenNumbersFromTwoToTwelveThenFortyTwo() {
+        int start = 2;
+        int finish = 12;
         int result = Counter.sumByEven(start, finish);
-        int expected = 18;
+        int expected = 42;
         Assert.assertEquals(expected, result);
     }
 }
