@@ -7,7 +7,6 @@ public class MinTest {
     @Test
     public void whenFirstMin() {
         int[] array = new int[] {0, 5, 10};
-
         int result = Min.findMin(array);
         int expected = 0;
         Assert.assertEquals(expected, result);
