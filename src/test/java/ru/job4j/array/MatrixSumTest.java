@@ -10,6 +10,7 @@ public class MatrixSumTest {
                 {10}
         };
         int result = MatrixSum.sum(array);
+
         int expected = 10;
         Assert.assertEquals(expected, result);
     }
