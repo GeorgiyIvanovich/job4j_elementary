@@ -124,6 +124,7 @@ public class MatrixCheckTest {
                 {' ', ' ', 'X', ' ', ' '},
         };
         boolean result = MatrixCheck.isWin(input);
+
         Assert.assertTrue(result);
     }
 }
