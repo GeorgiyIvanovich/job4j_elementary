@@ -7,6 +7,7 @@ public class DefragmentTest {
     @Test
     public void singleFirstNull() {
         String[] input = {null, "I"};
+
         String[] result = Defragment.compress(input);
         String[] expected = {"I", null};
         Assert.assertArrayEquals(expected, result);
