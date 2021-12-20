@@ -8,6 +8,7 @@ public class MachineTest {
     public void whenEquals() {
         int money = 100;
         int price = 100;
+
         int[] result = Machine.change(money, price);
         int[] expected = {};
         Assert.assertArrayEquals(expected, result);
